@@ -1,0 +1,84 @@
+.fondo {
+  background-image: url("https://www.prensalibre.com/wp-content/uploads/2020/02/shutterstock_1132204001.jpg?quality=52&w=760&h=430&crop=1");
+  height: 879px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detalles {
+  padding: 40px;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  border: 0.2em solid rgb(20, 111, 202);
+  background: linear-gradient(rgba(204, 204, 204, 0.539),rgba(223, 223, 223, 0.579));
+}
+
+.imagen {
+  width: 660px;
+  height: 477px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.boton {
+  border-radius: 10px;
+  background-color: rgb(231, 144, 30);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  height: 25px;
+  margin-top: 20px;
+}
+
+
+.descripcion {
+  width: 65%;
+  padding-left: 20px;
+}
+
+.titulo {
+  background-color: #12738b;
+
+  color: rgb(252, 252, 252);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.puntos_a {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+.puntos_a h3 {
+  color: #000000;
+  padding-left: 15px;
+}
+.puntos_b h3 {
+  color: #000000;
+  padding-left: 15px;
+}
+.puntos_a p {
+  color: #000000;
+  padding-right: 15px;
+}
+.puntos_b p {
+  color: #000000;
+  padding-right: 15px;
+}
+
+.puntos_b {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  background-color: rgb(208, 208, 208);
+}

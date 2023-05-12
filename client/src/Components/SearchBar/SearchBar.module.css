@@ -1,0 +1,14 @@
+.buscador{
+    padding: 5px;
+    margin: 5px;
+}
+.boton{
+    padding: 5px;
+    margin: 5px;
+}
+.navegacion{
+    display: flex;
+}
+.detalle{
+    background-color:lightseagreen;
+}

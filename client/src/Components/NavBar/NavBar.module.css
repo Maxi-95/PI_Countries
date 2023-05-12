@@ -1,0 +1,42 @@
+.navegador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    height:90px;
+    background-color: #12738b ;
+ 
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+}
+
+.boton{  
+    background-color: rgb(231, 144, 30);
+    padding: 15px;
+    margin-right: 40px;
+    border-radius: 10px;
+    
+}
+
+.buscador{
+    display: flex;
+    margin-left: 10px;
+    background-color: rgb(231, 144, 30);
+}
+
+.Sort{
+    display: flex;
+    align-items: center;
+}
+
+.select{
+    height: 25px;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,63 @@
+.fondo{
+    background-image: url("https://www.cronista.com/files/image/398/398369/61840a5b0257c.jpg");
+    background-size: cover;
+    height: 879px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(#12738ba1,#12738ba4);
+    width: 450px;
+    border: 0.3em solid rgb(11, 61, 110);
+
+}
+
+.losInput{
+    justify-content:last baseline;
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.losInput input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.losInput select{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.losInput h2{
+    color: aliceblue;
+}
+.losInput p{
+    color: aliceblue;
+}
+
+.losInput label{
+    padding-right: 10px;
+}
+
+.errores{
+    color: red;
+    padding-left: 25px;
+}
+
+.boton{
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(231, 144, 30);
+    margin-left: 110px;
+    border-radius: 10px;
+}

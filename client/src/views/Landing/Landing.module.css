@@ -1,0 +1,43 @@
+.fondo{
+    background-image: url("https://libretilla.com/wp-content/uploads/2020/01/cuantos-paises-mundo.jpg");
+    height: 260mm;
+    display: flex;
+    align-items: center;
+}
+
+.nombre{
+    color: rgb(247, 247, 247);
+    font-size: 25px;
+}
+
+
+.boton{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(231, 144, 30);
+    border-radius: 10px;
+    border: 0.2em solid rgb(107, 67, 15);
+}
+
+.boton h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: rgb(107, 67, 15);
+}
+
+
+
+.paginado{
+   width: 35%;
+   height: 100%;
+   background: linear-gradient(rgba(59, 118, 164, 0.75),rgba(56, 128, 183, 0.75));
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
